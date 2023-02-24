@@ -1,4 +1,5 @@
 import React from "react";
+import Moviess3 from "./Moviess3";
 import "./section.css";
 
 function Section3() {
@@ -11,7 +12,7 @@ function Section3() {
               <h2 className='section__title'>Expected premiere</h2>
               <div className='section__nav'>
                 <a href='#'>View All</a>
-                <button type='button'>
+                <button type='button' style={{ margin: "0px 10px" }}>
                   <span class='carousel-control-prev-icon left'></span>
                   <span class='visually-hidden'>Previous</span>
                 </button>
@@ -21,122 +22,7 @@ function Section3() {
                 </button>
               </div>
             </div>
-            <div className='col-2-2-2'>
-              <div className='img-titlemovie'>
-                <div className='img-img ss2'>
-                  <img
-                    className='img-movie'
-                    src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                    alt=''
-                  />
-                  <span className='card__rate'>6.2</span>
-                </div>
-                <div className='title-title'>
-                  <h3 className='card__title'>
-                    <a href='#'>Blindspotting</a>
-                  </h3>
-                  <span className='card__category'>
-                    <a href='#'>Comedy, </a>
-                    <a href='#'>Drama</a>
-                  </span>
-                </div>
-              </div>
-              <div className='img-titlemovie'>
-                <div className='img-img ss2'>
-                  <img
-                    className='img-movie'
-                    src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                    alt=''
-                  />
-                  <span className='card__rate'>6.2</span>
-                </div>
-                <div className='title-title'>
-                  <h3 className='card__title'>
-                    <a href='#'>Blindspotting</a>
-                  </h3>
-                  <span className='card__category'>
-                    <a href='#'>Comedy, </a>
-                    <a href='#'>Drama</a>
-                  </span>
-                </div>
-              </div>
-              <div className='img-titlemovie'>
-                <div className='img-img ss2'>
-                  <img
-                    className='img-movie'
-                    src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                    alt=''
-                  />
-                  <span className='card__rate'>6.2</span>
-                </div>
-                <div className='title-title'>
-                  <h3 className='card__title'>
-                    <a href='#'>Blindspotting</a>
-                  </h3>
-                  <span className='card__category'>
-                    <a href='#'>Comedy, </a>
-                    <a href='#'>Drama</a>
-                  </span>
-                </div>
-              </div>
-              <div className='img-titlemovie'>
-                <div className='img-img ss2'>
-                  <img
-                    className='img-movie'
-                    src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                    alt=''
-                  />
-                  <span className='card__rate'>6.2</span>
-                </div>
-                <div className='title-title'>
-                  <h3 className='card__title'>
-                    <a href='#'>Blindspotting</a>
-                  </h3>
-                  <span className='card__category'>
-                    <a href='#'>Comedy, </a>
-                    <a href='#'>Drama</a>
-                  </span>
-                </div>
-              </div>
-              <div className='img-titlemovie'>
-                <div className='img-img ss2'>
-                  <img
-                    className='img-movie'
-                    src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                    alt=''
-                  />
-                  <span className='card__rate'>6.2</span>
-                </div>
-                <div className='title-title'>
-                  <h3 className='card__title'>
-                    <a href='#'>Blindspotting</a>
-                  </h3>
-                  <span className='card__category'>
-                    <a href='#'>Comedy, </a>
-                    <a href='#'>Drama</a>
-                  </span>
-                </div>
-              </div>
-              <div className='img-titlemovie'>
-                <div className='img-img ss2'>
-                  <img
-                    className='img-movie'
-                    src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                    alt=''
-                  />
-                  <span className='card__rate'>6.2</span>
-                </div>
-                <div className='title-title'>
-                  <h3 className='card__title'>
-                    <a href='#'>Blindspotting</a>
-                  </h3>
-                  <span className='card__category'>
-                    <a href='#'>Comedy, </a>
-                    <a href='#'>Drama</a>
-                  </span>
-                </div>
-              </div>
-            </div>
+            <Moviess3 />
           </div>
         </div>
       </section>

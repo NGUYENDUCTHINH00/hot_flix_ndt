@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./header.css";
+import "./headerview.css";
 
-function Header() {
+function Headerview() {
   return (
     <>
       <header className='header'>
         <div className='container'>
           <div className='nav'>
             <div className='logo-hotflix'>
-              <img
-                src='http://hotflix.volkovdesign.com/main/img/logo.svg'
-                alt=''
-              />
+              <Link to='/homepage'>
+                <img
+                  src='http://hotflix.volkovdesign.com/main/img/logo.svg'
+                  alt=''
+                />
+              </Link>
             </div>
             <div className='drop-down none'>
               <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
@@ -405,4 +407,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Headerview;

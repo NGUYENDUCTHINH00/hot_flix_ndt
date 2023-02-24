@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.css";
+import "./footer.css";
 
-function Footer() {
+function Footerview() {
   return (
     <>
       <footer className='footer'>
@@ -36,4 +36,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footerview;

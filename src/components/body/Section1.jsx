@@ -1,4 +1,5 @@
 import React from "react";
+import Moviess1 from "./Moviess1";
 import "./section.css";
 
 function Section1() {
@@ -75,103 +76,7 @@ function Section1() {
                     </button>
                   </div>
                 </div>
-                <div className='col-2-2'>
-                  <div className='img-titlemovie'>
-                    <div className='img-img'>
-                      <img
-                        className='img-movie'
-                        src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                        alt=''
-                      />
-                      <span className='card__rate'>6.2</span>
-                    </div>
-                    <div className='title-title'>
-                      <h3 className='card__title'>
-                        <a href='#'>Blindspotting</a>
-                      </h3>
-                      <span className='card__category'>
-                        <a href='#'>Comedy, </a>
-                        <a href='#'>Drama</a>
-                      </span>
-                    </div>
-                  </div>
-                  <div className='img-titlemovie'>
-                    <div className='img-img'>
-                      <img
-                        className='img-movie'
-                        src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                        alt=''
-                      />
-                      <span className='card__rate'>6.2</span>
-                    </div>
-                    <div className='title-title'>
-                      <h3 className='card__title'>
-                        <a href='#'>Blindspotting</a>
-                      </h3>
-                      <span className='card__category'>
-                        <a href='#'>Comedy, </a>
-                        <a href='#'>Drama</a>
-                      </span>
-                    </div>
-                  </div>
-                  <div className='img-titlemovie'>
-                    <div className='img-img'>
-                      <img
-                        className='img-movie'
-                        src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                        alt=''
-                      />
-                      <span className='card__rate'>6.2</span>
-                    </div>
-                    <div className='title-title'>
-                      <h3 className='card__title'>
-                        <a href='#'>Blindspotting</a>
-                      </h3>
-                      <span className='card__category'>
-                        <a href='#'>Comedy, </a>
-                        <a href='#'>Drama</a>
-                      </span>
-                    </div>
-                  </div>
-                  <div className='img-titlemovie'>
-                    <div className='img-img'>
-                      <img
-                        className='img-movie'
-                        src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                        alt=''
-                      />
-                      <span className='card__rate'>6.2</span>
-                    </div>
-                    <div className='title-title'>
-                      <h3 className='card__title'>
-                        <a href='#'>Blindspotting</a>
-                      </h3>
-                      <span className='card__category'>
-                        <a href='#'>Comedy, </a>
-                        <a href='#'>Drama</a>
-                      </span>
-                    </div>
-                  </div>{" "}
-                  <div className='img-titlemovie'>
-                    <div className='img-img'>
-                      <img
-                        className='img-movie'
-                        src='http://hotflix.volkovdesign.com/main/img/covers/cover5.jpg'
-                        alt=''
-                      />
-                      <span className='card__rate'>6.2</span>
-                    </div>
-                    <div className='title-title'>
-                      <h3 className='card__title'>
-                        <a href='#'>Blindspotting</a>
-                      </h3>
-                      <span className='card__category'>
-                        <a href='#'>Comedy, </a>
-                        <a href='#'>Drama</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
+                <Moviess1 />
               </div>
             </div>
           </div>
